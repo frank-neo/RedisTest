@@ -16,7 +16,7 @@ public class RedisController {
     private UserredisService userredisService;
 
     @RequestMapping(value = "/testRedis",method = RequestMethod.GET)
-    public List<Userredis> getRedisById(String id){
+    public List<Userredis> getRedisById(int id){
         return userredisService.getRedisById(id);
     }
 }

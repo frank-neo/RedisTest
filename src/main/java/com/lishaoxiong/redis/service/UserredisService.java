@@ -13,7 +13,7 @@ public class UserredisService {
     @Resource
     private UserredisMapper userredisMapper;
 
-    public List<Userredis> getRedisById(String id){
+    public List<Userredis> getRedisById(int id){
         return userredisMapper.getRedisById(id);
     }
 }

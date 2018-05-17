@@ -18,6 +18,6 @@ public interface UserredisMapper {
     @Select("select name,age from userredis where id > #{id}")
 
     @Cacheable(key ="'testid'+#p0")
-    public List<Userredis> getRedisById(String id);
+    public List<Userredis> getRedisById(int id);
 
 }

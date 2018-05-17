@@ -4,7 +4,10 @@
     <list default="true" id="dc3d251c-8042-49a0-9a97-4bc446f36770" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../RedisTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisTest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RedisTest/src/main/java/com/lishaoxiong/redis/conf/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisTest/src/main/java/com/lishaoxiong/redis/conf/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RedisTest/src/main/java/com/lishaoxiong/redis/controller/RedisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisTest/src/main/java/com/lishaoxiong/redis/controller/RedisController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RedisTest/src/main/java/com/lishaoxiong/redis/mapper/UserredisMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisTest/src/main/java/com/lishaoxiong/redis/mapper/UserredisMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RedisTest/src/main/java/com/lishaoxiong/redis/service/UserredisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisTest/src/main/java/com/lishaoxiong/redis/service/UserredisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RedisTest/src/main/log/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisTest/src/main/log/log.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,8 +46,8 @@
       <file leaf-file-name="RedisConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../RedisTest/src/main/java/com/lishaoxiong/redis/conf/RedisConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="38" />
+            <state relative-caret-position="266">
+              <caret line="62" column="13" lean-forward="true" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1260#1289#1" expanded="true" />
@@ -53,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserredisMapper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserredisMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../RedisTest/src/main/java/com/lishaoxiong/redis/mapper/UserredisMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            <state relative-caret-position="420">
+              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/../RedisTest/src/main/java/com/lishaoxiong/redis/service/UserredisService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RedisController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../RedisTest/src/main/java/com/lishaoxiong/redis/controller/RedisController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="396">
+              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,10 +127,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lishaoxiong/redis/controller/RedisController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lishaoxiong/redis/service/UserredisService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lishaoxiong/redis/mapper/UserredisMapper.java" />
-        <option value="$PROJECT_DIR$/../RedisTest/src/main/java/com/lishaoxiong/redis/service/UserredisService.java" />
-        <option value="$PROJECT_DIR$/../RedisTest/src/main/java/com/lishaoxiong/redis/controller/RedisController.java" />
         <option value="$PROJECT_DIR$/../RedisTest/src/main/java/com/lishaoxiong/redis/conf/RedisConfig.java" />
         <option value="$PROJECT_DIR$/../RedisTest/src/main/java/com/lishaoxiong/redis/mapper/UserredisMapper.java" />
+        <option value="$PROJECT_DIR$/../RedisTest/src/main/java/com/lishaoxiong/redis/service/UserredisService.java" />
+        <option value="$PROJECT_DIR$/../RedisTest/src/main/java/com/lishaoxiong/redis/controller/RedisController.java" />
       </list>
     </option>
   </component>
@@ -358,12 +361,20 @@
       <workItem from="1526350282026" duration="6715000" />
       <workItem from="1526373664899" duration="6958000" />
       <workItem from="1526523545350" duration="1453000" />
-      <workItem from="1526526621511" duration="5554000" />
+      <workItem from="1526526621511" duration="6151000" />
     </task>
+    <task id="LOCAL-00001" summary="@Cacheable(key =&quot;'testid'+#p0&quot;)是可以的">
+      <created>1526538506269</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1526538506270</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20680000" />
+    <option name="totallyTimeSpent" value="21277000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -376,7 +387,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="3" weight="0.3299356" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.5029762" side_tool="true" visible="true" weight="0.25364584" />
+      <window_info id="Structure" order="1" sideWeight="0.5029762" side_tool="true" visible="true" weight="0.25364584" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -387,7 +398,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27114967" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27114967" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49702382" visible="true" weight="0.25364584" />
@@ -408,6 +419,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="@Cacheable(key =&quot;'testid'+#p0&quot;)是可以的" />
+    <option name="LAST_COMMIT_MESSAGE" value="@Cacheable(key =&quot;'testid'+#p0&quot;)是可以的" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../RedisTest/src/main/resources/application.yml">
@@ -708,12 +723,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../RedisTest/src/main/java/com/lishaoxiong/redis/controller/RedisController.java">
+    <entry file="jar://$PROJECT_DIR$/../maven/IDEA-MAVEN/repo/com/fasterxml/jackson/core/jackson-databind/2.8.10/jackson-databind-2.8.10.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="-220">
+          <caret line="126" column="42" lean-forward="true" selection-start-line="126" selection-start-column="42" selection-end-line="126" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../maven/IDEA-MAVEN/repo/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE.jar!/org/springframework/cache/interceptor/KeyGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../RedisTest/src/main/java/com/lishaoxiong/redis/conf/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="62" column="13" lean-forward="true" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1260#1289#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -725,20 +755,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../maven/IDEA-MAVEN/repo/com/fasterxml/jackson/core/jackson-databind/2.8.10/jackson-databind-2.8.10.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
+    <entry file="file://$PROJECT_DIR$/../RedisTest/src/main/java/com/lishaoxiong/redis/mapper/UserredisMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-220">
-          <caret line="126" column="42" lean-forward="true" selection-start-line="126" selection-start-column="42" selection-end-line="126" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../RedisTest/src/main/java/com/lishaoxiong/redis/conf/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="38" />
+        <state relative-caret-position="420">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1260#1289#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -746,17 +768,17 @@
     <entry file="file://$PROJECT_DIR$/../RedisTest/src/main/java/com/lishaoxiong/redis/service/UserredisService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../RedisTest/src/main/java/com/lishaoxiong/redis/mapper/UserredisMapper.java">
+    <entry file="file://$PROJECT_DIR$/../RedisTest/src/main/java/com/lishaoxiong/redis/controller/RedisController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        <state relative-caret-position="396">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
