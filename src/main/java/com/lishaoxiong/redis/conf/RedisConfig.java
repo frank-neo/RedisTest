@@ -60,6 +60,7 @@ public class RedisConfig extends CachingConfigurerSupport {
         //template.setKeySerializer();
     }
 
+    //自定义key的生成策略
     @Override
     public KeyGenerator keyGenerator() {
         return new KeyGenerator() {
